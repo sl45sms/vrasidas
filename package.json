@@ -1,0 +1,23 @@
+{
+  "name": "vrasidas",
+  "version": "1.0.0",
+  "description": "a game bot",
+  "main": "bin/bot.js",
+  "repository": "git@github.com:sl45sms/vrasidas.git",
+  "author": "Panagiotis SKarvelis <panagiotis@skarvelis.gr>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@botpress/client": "^0.5.2",
+    "@types/node": "^20.7.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/bot.js",
+    "dev": "ts-node ./src/bot.ts"
+  }
+}
