@@ -1,5 +1,5 @@
 # vrasidas
-a botpress game bot
+A friendly ai for kids
 
 
 # prepare the project
